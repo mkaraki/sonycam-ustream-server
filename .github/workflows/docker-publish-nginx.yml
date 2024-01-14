@@ -10,8 +10,13 @@ on:
     branches: [ "master" ]
     # Publish semver tags as releases.
     tags: [ 'v*.*.*' ]
+    paths:
+      - nginx/**
+      - .github/workflows/docker-publish-nginx.yml
   pull_request:
-    branches: [ "master" ]
+    paths:
+      - nginx/**
+      - .github/workflows/docker-publish-nginx.yml
 
 env:
   # Use docker.io for Docker Hub if empty
