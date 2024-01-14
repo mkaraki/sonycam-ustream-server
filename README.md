@@ -1,4 +1,4 @@
-# Sony Camera UStream Server
+# Sony Camera Ustream Server
 
 Alternative Stream server for [Ustream supported Sony's ActionCam](https://www.sony-mea.com/en/electronics/support/action-cam-fdr-x-series/fdr-x3000r/articles/00200750).
 
